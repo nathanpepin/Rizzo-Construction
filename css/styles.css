@@ -1,0 +1,238 @@
+/* 604px is the breaking point*/
+
+body {
+  left: 0;
+  right: 0;
+  width: auto;
+  max-width: 1020px;
+  min-width: 680px;
+  margin: 0 auto;
+  background: lightgray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.call_bar {
+  height: 3.5em;
+  background: black;
+  color: white;
+}
+
+img.call_bar_icon {
+  height: 1.75em;
+  width: 1.75em;
+}
+
+div.call_bar_left,
+div.call_bar_right {
+  margin-top: 1em;
+}
+
+div.call_bar_left {
+  padding-left: 1em;
+  float: left;
+}
+
+div.call_bar_right {
+  padding-right: 1em;
+  float: right;
+}
+
+.call_bar span {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+a.call_bar {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+div.nav_top,
+div.nav_bot {
+  height: 3.25em;
+}
+
+div.nav_top {
+  background: white;
+  color: black;
+}
+
+#rizzo,
+#construction {
+  float: left;
+  font-size: 2.25em;
+}
+
+#rizzo {
+  width: auto;
+  color: black;
+  margin-left: 0.25em;
+}
+
+#construction {
+  width: auto;
+  color: white;
+  margin-left: 2em;
+}
+
+div.nav_links {
+  float: right;
+  color: #0d0d0d;
+  margin-top: 1.25em;
+  margin-left: 0.25em;
+}
+
+div.nav_links a {
+  margin-right: 0.5em;
+}
+
+div.nav_top a {
+  font-size: 1em;
+}
+
+div.nav_bot {
+  background: gray;
+  color: black;
+}
+
+div.services_top {
+  height: 19em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#808080+0,404040+100 */
+  background: #808080; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #808080 0%,
+    #404040 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #808080 0%,
+    #404040 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #808080 0%,
+    #404040 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#404040',GradientType=0 ); /* IE6-9 */
+}
+
+div.services_top div {
+  text-align: center;
+  color: white;
+  padding-top: 0.85em;
+  font-size: 4.5em;
+}
+
+div.services_bottom {
+  height: 8.5em;
+  background: white;
+  text-align: center;
+}
+
+.dot {
+  height: 200px;
+  width: 200px;
+  padding: 0 6px 0 6px;
+  background-color: #747474;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 0.5em;
+}
+
+.dot img {
+  width: 115px;
+  height: 115px;
+  margin-top: 15px;
+}
+
+.dot p {
+  margin: 0;
+  font-size: 0.75em;
+}
+
+div.divider {
+  height: 2.25em;
+  background: #874141;
+}
+
+div.portfolio {
+  height: 21em;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d5959+0,513838+100 */
+  background: #7d5959; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #7d5959 0%,
+    #513838 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #7d5959 0%,
+    #513838 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #7d5959 0%,
+    #513838 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d5959', endColorstr='#513838',GradientType=0 ); /* IE6-9 */
+}
+
+#portfolio_text {
+    color: white;
+    text-align: center;
+    font-size: 4.75em;
+    padding-top: 15px;
+}
+
+.portfolio img {
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio div {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.portfolio p {
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+
+div.who_we_are {
+  height: 21em;
+  background: white;
+}
+
+div.contact_us {
+  height: 17em;
+  background: #575757;
+}
+
+div.business_card {
+  height: 13em;
+  background: #606060;
+}
+
+footer {
+  background: black;
+  color: white;
+}
+
+#footer_text {
+  padding: 0.5em;
+  line-height: 3px;
+  text-align: center;
+}
