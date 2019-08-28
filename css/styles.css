@@ -124,42 +124,24 @@ div.services_top div {
 }
 
 div.services_bottom {
-  height: 8.5em;
+  height: 11em;
   background: white;
   text-align: center;
 }
 
-.dot_group {
-  width: 100%;
-}
-
-.dot {
+.service_icons {
   height: 200px;
   width: 200px;
-  background-color: #747474;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 0.5em;
-}
-
-.dot img {
-  width: 115px;
-  height: 115px;
-  margin-top: 15px;
-}
-
-.dot p {
-  margin: 0;
-  font-size: 0.75em;
 }
 
 div.divider {
   height: 2.25em;
   background: #874141;
+  clear: both;
 }
 
 div.portfolio {
-  height: 21em;
+  height: 23em;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d5959+0,513838+100 */
   background: #7d5959; /* Old browsers */
   background: -moz-linear-gradient(
@@ -185,6 +167,7 @@ div.portfolio {
   text-align: center;
   font-size: 4.75em;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .portfolio img {
@@ -210,9 +193,15 @@ div.portfolio {
   width: 33.33%;
 }
 
-div.who_we_are {
-  height: 21em;
+.who_we_are {
+  height: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background: white;
+  overflow: auto;
+}
+
+div.who_we_are {
   text-align: center;
   padding-right: 5em;
   padding-left: 5em;
@@ -240,7 +229,7 @@ div.who_we_are {
 }
 
 div.contact_us {
-  height: 13em;
+  height: 15em;
   background: #4d4d4d;
   color: white;
   text-align: center;
