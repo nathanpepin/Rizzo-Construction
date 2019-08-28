@@ -57,11 +57,6 @@ a:hover {
   text-decoration: none;
 }
 
-div.nav_top,
-div.nav_bot {
-  height: 4em;
-}
-
 div.nav_top {
   background: white;
   color: black;
@@ -70,8 +65,10 @@ div.nav_top {
 
 #rizzo {
   width: auto;
-  color: black;
+  color: rgb(51, 51, 51);
   font-size: 3em;
+  font-weight: 600;
+  padding: 0.3em 0 0.3em 0;
 }
 
 div.nav_links {
@@ -124,7 +121,7 @@ div.services_top div {
 }
 
 div.services_bottom {
-  height: 11em;
+  height: 10em;
   background: white;
   text-align: center;
 }
@@ -196,7 +193,7 @@ div.portfolio {
 .who_we_are {
   height: auto;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   background: white;
   overflow: auto;
 }
@@ -229,7 +226,7 @@ div.who_we_are {
 }
 
 div.contact_us {
-  height: 15em;
+  height: 13.5em;
   background: #4d4d4d;
   color: white;
   text-align: center;
