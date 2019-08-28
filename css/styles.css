@@ -217,23 +217,30 @@ div.who_we_are {
   padding-right: 5em;
   padding-left: 5em;
 }
+
+.who_we_are div {
+  padding-top: 1em;
+}
+
 .who_we_are span {
   font-size: 3.5em;
   color: #535353;
 }
 
 .who_we_are div img {
-  height: 13em;
+  height: 10em;
+  padding-right: 1em;
   float: left;
 }
 
-.who_we_are div span {
-  font-size: 1em;
-  color: #535353;
+.who_we_are p {
+  float: left;
+  text-align: left;
+  font-size: 1.2em;
 }
 
 div.contact_us {
-  height: 12em;
+  height: 13em;
   background: #4d4d4d;
   color: white;
   text-align: center;
@@ -269,7 +276,7 @@ div.business_card {
 
 .contact_card {
   float: right;
-  padding: 1.75em 1em 0 0;
+  padding: 1em 1em 0 0;
   font-size: 1.5em;
 }
 
