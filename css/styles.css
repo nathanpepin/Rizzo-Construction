@@ -37,6 +37,11 @@ div.call_bar_right {
   float: right;
 }
 
+.call_bar_right img {
+  margin: 0;
+  padding: 0;
+}
+
 .call_bar span {
   margin-top: 1em;
   font-size: 1.5em;
@@ -54,30 +59,19 @@ a:hover {
 
 div.nav_top,
 div.nav_bot {
-  height: 3.25em;
+  height: 4em;
 }
 
 div.nav_top {
   background: white;
   color: black;
-}
-
-#rizzo,
-#construction {
-  float: left;
-  font-size: 2.25em;
+  text-align: center;
 }
 
 #rizzo {
   width: auto;
   color: black;
-  margin-left: 0.25em;
-}
-
-#construction {
-  width: auto;
-  color: white;
-  margin-left: 2em;
+  font-size: 3em;
 }
 
 div.nav_links {
@@ -135,10 +129,13 @@ div.services_bottom {
   text-align: center;
 }
 
+.dot_group {
+  width: 100%;
+}
+
 .dot {
   height: 200px;
   width: 200px;
-  padding: 0 6px 0 6px;
   background-color: #747474;
   border-radius: 50%;
   display: inline-block;
@@ -193,6 +190,8 @@ div.portfolio {
 .portfolio img {
   width: 100px;
   height: 100px;
+  border: rgba(255, 255, 255, 0.75);
+  border-style: double;
 }
 
 .portfolio div {
@@ -234,7 +233,7 @@ div.who_we_are {
 }
 
 div.contact_us {
-  height: 17em;
+  height: 12em;
   background: #4d4d4d;
   color: white;
   text-align: center;
@@ -252,18 +251,39 @@ div.contact_us {
 }
 
 div.business_card {
-  height: 13em;
+  height: 12em;
   background: #606060;
   color: white;
   font-size: 2em;
 }
 
 .business_card img {
-  height: 9em;
-  float:right;
+  height: 7em;
+}
+
+.profile_img {
+  padding: 1.5em 0 0 1.5em;
+  text-align: center;
+  float: left;
+}
+
+.contact_card {
+  float: right;
+  padding: 1.75em 1em 0 0;
+  font-size: 1.5em;
+}
+
+.a_link {
+  color: white;
+}
+
+.contact_div {
+  height: 2.25em;
+  background: #494949;
 }
 
 footer {
+  clear: left;
   background: black;
   color: white;
 }
